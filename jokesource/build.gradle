@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+}
+
+// // http://stackoverflow.com/questions/23847482/error-gradle-execution-failed-for-task-apppredexdebug
+sourceCompatibility = JavaVersion.VERSION_1_7   //these two lines
+targetCompatibility = JavaVersion.VERSION_1_7   //are the only ones that matter
