@@ -1,3 +1,7 @@
 <resources>
     <string name="flavor_version" >Free version</string>
+    <string name="interstitial_ad">Interstitial Ad</string>
+    <string name="banner_ad_unit_id" translatable="false">YOUR-KEY-HERE</string>
+    <string name="interstitial_ad_unit_id" translatable="false">YOUR-KEY-HERE</string>
+
 </resources>
